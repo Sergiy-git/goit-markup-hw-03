@@ -323,6 +323,20 @@ img {
 }
 
 .logo-footer {
+    display: block;
+    margin-bottom: 28px;
+    
+    color: #2196F3;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer-span {
     color: #FFFFFF;
 }
 
@@ -332,11 +346,13 @@ img {
 }
 
 .adress {
+    display: block;
+    margin-bottom: 12px;
     color: var(--light-text-color);
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
@@ -345,11 +361,13 @@ img {
 }
 
 .footer-contacts {
+    display: block;
+    margin-bottom: 12px;
     color: var(--footer-contacts-color);
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
@@ -357,6 +375,20 @@ img {
     color: var(--accent-color);
 }
 
+.footer-phone {
+    display: block;
+    color: var(--footer-contacts-color);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.footer-phone:hover,
+.footer-phone:focus {
+    color: var(--accent-color);
+}
 
 /* portfolio page */
 
@@ -408,7 +440,6 @@ img {
 .portfolio-examples-items {
     margin-right: 30px;
     margin-bottom: 30px;
-    padding-bottom: 20px;
     width: 370px;
 }
 
